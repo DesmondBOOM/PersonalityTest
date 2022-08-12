@@ -1,5 +1,6 @@
-from questions import sections, question_list
 import streamlit as st
+
+from questions import sections, question_list
 
 
 def display_in_section():
