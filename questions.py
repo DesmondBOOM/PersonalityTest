@@ -80,4 +80,5 @@ sections = [
 question_list = []
 for section in sections:
     question_list.extend(section.questions)
+random.seed()
 random.shuffle(question_list)
